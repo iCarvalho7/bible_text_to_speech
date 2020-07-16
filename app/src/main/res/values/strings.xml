@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">bible_text_to_speech</string>
+    <string name="text_cap">Capítulos: %s</string>
+    <string name="text_author">Autor: %s</string>
 </resources>

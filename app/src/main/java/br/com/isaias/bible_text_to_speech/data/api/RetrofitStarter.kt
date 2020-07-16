@@ -14,7 +14,7 @@ class RetrofitStarter {
         .addInterceptor { chain ->
             val request = chain.request()
             val authRequest = request.newBuilder()
-                .header("token", BuildConfig.API_KEY)
+                .header("Authorization"," Bearer " + BuildConfig.API_KEY)
                 .build()
             chain.proceed(authRequest)
         }
